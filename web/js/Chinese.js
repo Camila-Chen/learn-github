@@ -81,14 +81,12 @@ function recover() {
 
 
 function change1() {
-    window.location = "file:///Users/chentian/Documents/projects/web/code/Chinese.html"
-    document.cookie = "language=Chinese";
-    console.log(document.cookie)
+    window.location = "https://candyst.github.io/learn-github/web/code/Chinese.html"
+
 
 }
 function change2() {
-    window.location = "file:///Users/chentian/Documents/projects/web/code/English.html"
-    document.cookie = "language=English";
-    console.log(document.cookie)
+    window.location = "https://candyst.github.io/learn-github/web/code/English.html"
+
 }
 

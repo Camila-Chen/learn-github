@@ -80,8 +80,8 @@ function recover() {
 }
 
 function change1() {
-    window.location = "file:///Users/chentian/Documents/projects/web/code/Chinese.html"
+    window.location = "https://candyst.github.io/learn-github/web/code/Chinese.html"
 }
 function change2() {
-    window.location = "file:///Users/chentian/Documents/projects/web/code/English.html"
+    window.location = "https://candyst.github.io/learn-github/web/code/English.html"
 }
