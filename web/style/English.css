@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: black;
+}
+
+.box1,
+.box2,
+.box3 {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.wrap {
+    height: 100%;
+    width: 48vw;
+}
+
+.title {
+
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+
+}
+
+.txt {
+    margin-top: 30vh;
+    margin-left: 60px;
+    color: white;
+
+
+}
+
+.txt1 {
+    font-size: 5px;
+    color: darkgray;
+    letter-spacing: 1px;
+    color: white;
+
+}
+
+.txt2 {
+    font-size: 35px;
+    font-family: -webkit-pictograph;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+
+
+}
+
+.txt3 {
+    font-size: 5px;
+    color: gray;
+    font-family: inherit;
+    color: white;
+
+}
+
+.block {
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 8px;
+
+}
+
+.block img {
+    padding: 10px;
+}
+
+.photobg1,
+.photobg2,
+.photobg3 {
+    width: 40vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.photobg1 {
+    background-image: url("../img/person1.jpg");
+
+}
+
+.photobg2 {
+    background-image: url("../img/person2.jpg");
+
+}
+
+.photobg3 {
+    background-image: url("../img/person3.jpg");
+
+}
+
+
+
+.point {
+    position: fixed;
+    top: 50%;
+    right: 45px;
+}
+
+.point-wrap1,
+.point-wrap2,
+.point-wrap3 {
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.point-t {
+    width: 5px;
+    height: 5px;
+    background-color: #84888b;
+    border-radius: 50%;
+}
+
+.point-on {
+    background-color: #fff;
+}
+
+.language {
+    width: 125px;
+    height: 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: fixed;
+    left: 165px;
+    top: 27px;
+    text-align: center;
+
+}
+
+button {
+    background-color: gray;
+}
+
+.change {
+    text-align: center;
+}
+
+
+
+@media screen and (max-device-width: 768px) {
+    .box {
+        flex-wrap: wrap;
+
+    }
+
+    .wrap {
+        height: 50vh;
+        width: 100vw;
+
+    }
+
+    .title {
+        margin-left: 10px;
+    }
+
+    .txt {
+        margin-left: 10px;
+        margin-top: 10%;
+    }
+
+    .photo {
+        width: 100vw;
+        height: 50vh;
+        background-size: cover;
+
+    }
+
+    .gang {
+        position: fixed;
+        right: 30px;
+    }
+
+}

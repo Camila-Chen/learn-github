@@ -1,0 +1,16 @@
+.first{
+    width: 192px;
+    border:1px solid black;
+     /*水平居中  */
+    margin: 10px auto;
+}
+.second{
+    width: 180px;
+    border:1px solid black;
+    margin: 0 auto;
+}
+.next p{
+        background-color: #f2f2f2;
+        margin:0;
+    
+}

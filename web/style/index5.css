@@ -1,0 +1,18 @@
+body{
+    /* 把浏览器的默认margin都设置成0 */
+    margin: 0;
+}
+.box1{
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.box2{
+    width: 300px;
+    height: 100px;
+    background-color: gray;
+    /* 非常实用的一条代码，盒子的居中，盒子必须设置宽高 */
+    margin:10px auto;
+}
