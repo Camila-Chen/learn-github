@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nodeing {
+    background-color: rgba(0, 0, 0, 0.33);
+    height: 80px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.text {
+    text-align: center;
+    margin: 30px;
+    color: white;
+    font-size: larger;
+}
+
+
+
+li {
+    list-style: none;
+    display: inline-block;
+    width: 130px;
+    height: 58px;
+    text-align: center;
+}
+
+.backdrop {
+    background-image: url("../img/back1.png");
+    height: 750px;
+}
+
+.middle {
+    width: 395px;
+    height: 465px;
+    margin: 0 auto;
+
+}
