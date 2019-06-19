@@ -169,6 +169,7 @@ li {
 .pic {
     padding-bottom: 5%;
     padding-top: 5%;
+    overflow: auto;
 }
 
 .title {
@@ -196,9 +197,121 @@ li {
 
 .picture {
     padding-top: 60px;
-    height: 100%;
     display: block;
     max-width: 1200px;
     margin: 0 auto;
+    overflow: auto;
 
+
+}
+
+.landscape-picture {
+    width: 25%;
+    max-width: 300px;
+    float: left;
+}
+
+.forth-part {
+    background-color: #f4f4f4;
+}
+
+.contact {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+
+}
+
+.headline {
+    margin-bottom: 40px;
+}
+
+.information {
+    display: flex;
+    padding-right: 12%;
+    padding-left: 12%;
+    line-height: 1.5;
+}
+
+.information1 {
+    display: flex;
+
+
+}
+
+.txt-name,
+.txt-email {
+    flex: 1;
+}
+
+.txt-name {
+    margin-right: 30px;
+}
+
+.headline-txt {
+    font-size: 43px;
+    color: #006699;
+    text-align: center;
+}
+
+.information-contain {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    margin-right: 20px;
+}
+
+.txt-name,
+.txt-email,
+.txt-subject,
+.txt-message {
+    display: block;
+    border-radius: 0;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    font-size: 1.2rem;
+    padding: 0.75rem;
+    margin-bottom: 1.8rem;
+}
+
+.txt-message {
+    padding-bottom: 200px;
+}
+
+.but {
+    text-align: end;
+}
+
+.txt-submit {
+    background: transparent;
+    border: 2px solid #4EA7FF;
+    color: #4EA7FF;
+    border-radius: 50px;
+    font-size: 19px;
+    padding: 0.5em 2.5em;
+    cursor: pointer;
+}
+
+.tel {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.tel1 {
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: #4EA7FF;
+    font-weight: 500;
+}
+
+.tel2,
+.tel3 {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    font-weight: 100;
+    font-size: 19px;
 }
