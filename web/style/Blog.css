@@ -3,6 +3,15 @@
     padding: 0;
 }
 
+html,
+body {
+    height: 100%;
+    background-attachment: fixed;
+    min-width: 800px;
+}
+
+
+
 .nodeing {
     background-color: rgba(0, 0, 0, 0.33);
     height: 80px;
@@ -12,8 +21,10 @@
 }
 
 .text {
-
+    padding: .5rem 1rem;
     text-align: center;
+    margin-bottom: 0px;
+
     color: white;
     font-size: 22px;
     line-height: 80px;
@@ -21,17 +32,31 @@
     font-weight: 100;
 }
 
+.menu {
+    list-style: none;
 
+}
 
 li {
-    list-style: none;
     display: inline-block;
+}
 
+.menu2,
+.menu3,
+.menu4,
+.menu5 {
+    margin-left: 7%;
+}
+
+.slide {
+    color: white;
+    text-decoration: none;
 }
 
 .backdrop {
     background-image: url("../img/back1.png");
     height: 750px;
+    background-size: cover;
 }
 
 .middle {
@@ -74,6 +99,7 @@ li {
 .second-part {
     background-color: #f4f4f4;
 
+
 }
 
 .News {
@@ -109,6 +135,13 @@ li {
     background-color: white;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
+
+.news1-photo,
+.news2-photo,
+.news3-photo {
+    width: 50%;
+}
+
 
 .news1-txt,
 .news2-txt,
@@ -196,6 +229,8 @@ li {
 }
 
 .picture {
+    width: 100%;
+    height: auto;
     padding-top: 60px;
     display: block;
     max-width: 1200px;
