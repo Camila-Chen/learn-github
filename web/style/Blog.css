@@ -7,10 +7,23 @@ html,
 body {
     height: 100%;
     background-attachment: fixed;
-    min-width: 800px;
+
 }
 
+.option-contain {
+    top: 0;
+}
 
+.option {
+    border: 1px solid white;
+    border-radius: 0;
+    color: white;
+    padding: .5rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background: 0 0;
+
+}
 
 .nodeing {
     background-color: rgba(0, 0, 0, 0.33);
@@ -24,7 +37,6 @@ body {
     padding: .5rem 1rem;
     text-align: center;
     margin-bottom: 0px;
-
     color: white;
     font-size: 22px;
     line-height: 80px;
@@ -94,7 +106,23 @@ li {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-weight: 100;
 
+
 }
+
+.txt3:hover {
+    background-color: white;
+    color: black;
+}
+
+.news1-txt3:hover,
+.news2-txt3:hover,
+.news3-txt3:hover,
+.txt-submit:hover {
+    background-color: #4EA7FF;
+    color: white;
+}
+
+
 
 .second-part {
     background-color: #f4f4f4;
@@ -236,8 +264,6 @@ li {
     max-width: 1200px;
     margin: 0 auto;
     overflow: auto;
-
-
 }
 
 .landscape-picture {
@@ -293,7 +319,8 @@ li {
     display: block;
     display: flex;
     flex-direction: column;
-    flex: 2;
+    /* flex: 2; */
+    width: 66.666%;
     margin-right: 20px;
 }
 
@@ -332,7 +359,7 @@ li {
 .tel {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    width: 33.333%;
 }
 
 .tel1 {
@@ -349,4 +376,160 @@ li {
     margin-bottom: 1rem;
     font-weight: 100;
     font-size: 19px;
+}
+
+@media (min-width: 768px) {
+    .option {
+        display: none;
+    }
+}
+
+.drop-down-content {
+    display: none;
+}
+
+@media(max-width:768px) {
+    .text {
+        display: none;
+    }
+
+    .option-contain {
+
+        background-color: rgba(0, 0, 0, 0.2);
+        position: fixed;
+        right: 0;
+        left: 0;
+    }
+
+    .drop-down-content {
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        display: none;
+    }
+
+    .drop-down {
+        text-align: center;
+        display: block;
+
+    }
+
+    .drop-down-menu {
+        float: none;
+        padding: .5rem 1rem;
+        text-align: center;
+        margin-bottom: 0px;
+        color: white;
+        font-size: 22px;
+        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+        font-weight: 100;
+    }
+
+    /* .nav.drop-down:hover .drop-down-content {
+        display: block;
+    } */
+
+    .option {
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+        padding: 0.5rem, 0.75rem;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        cursor: pointer;
+    }
+
+
+    .nodeing {
+        background: none;
+        box-shadow: none;
+        height: 54px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .news1,
+    .news2,
+    .news3 {
+        flex-direction: column;
+        margin: 0 auto 5% auto;
+        display: flex;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .news1-photo,
+    .news2-photo,
+    .news3-photo {
+        width: 100%;
+        display: block;
+        height: auto;
+
+    }
+}
+
+
+
+@media (max-width: 640px) {
+    .picture {
+        max-width: 600px;
+    }
+
+    .landscape-picture {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width:940px) {
+    .picture {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 300px;
+    }
+
+    .landscape-picture {
+        width: 33.33%;
+    }
+}
+
+@media (max-width: 767px) {
+    .information {
+        flex-direction: column;
+    }
+
+    .information-contain {
+        width: 100%;
+        text-align: center;
+    }
+
+    .information1 {
+        flex-direction: column;
+    }
+
+    .txt-name,
+    .txt-subject,
+    .txt-message,
+    .txt-email {
+        display: block;
+    }
+
+    .but {
+        width: 100%;
+        text-align: end;
+    }
+
+    .tel {
+        margin-top: 50px;
+        width: 100%;
+    }
+}
+
+@media(max-width:400px) {
+    .txt2 {
+        text-align: center;
+    }
 }
