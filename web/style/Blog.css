@@ -380,11 +380,18 @@ li {
         display: flex;
         flex-direction: column;
         margin-top: 0;
-        display: none;
     }
+
 
     .drop-down {
         text-align: center;
+        display: none;
+
+    }
+
+
+
+    .drop-down.nav_show {
         display: block;
 
     }
